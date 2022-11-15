@@ -3,15 +3,15 @@
 Web Technology хичээлийн бие даалт.
 
 ##TODO List
--[ ] home
-  -[ ] html
-  -[ ] css
-  -[ ] js
--[ ] login
-  -[ ] html
-  -[ ] css
-  -[ ] js
--[ ] sign up
-  -[ ] html
-  -[ ] css
-  -[ ] js
+1. home
+    -[ ] html
+    -[ ] css
+    -[ ] js
+2. login
+    -[ ] html
+    -[ ] css
+    -[ ] js
+3. sign up
+    -[ ] html
+    -[ ] css
+    -[ ] js
