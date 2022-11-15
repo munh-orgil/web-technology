@@ -2,7 +2,7 @@
 
 Web Technology хичээлийн бие даалт.
 
-##TODO List
+## TODO List
 1. home
     -[ ] html
     -[ ] css
