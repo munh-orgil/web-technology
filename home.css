@@ -1,0 +1,148 @@
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 25px;
+    top: 15px;
+}
+
+body {
+    background: rgb(40, 40, 40);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#head {
+    position: absolute;
+    width: 1536px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0) 100%);
+    border: 0px, single, black;
+}
+
+.home {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    left: 150px;
+    top: 25px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 39px;
+    text-decoration-line: none;
+}
+
+.dvd_list {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 240px;
+    top: 25px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 39px;
+    text-decoration-line: none;
+}
+
+.blu_ray_list {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    left: 330px;
+    top: 25px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    line-height: 39px;
+    text-decoration-line: none;
+}
+
+.cd_list {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 435px;
+    top: 25px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 39px;
+    text-decoration-line: none;
+}
+
+.about {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 525px;
+    top: 25px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 39px;
+    text-decoration-line: none;
+}
+
+.search_bar {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 1000px;
+    top: 25px;
+    background-color: white;
+    border-radius: 20px;
+
+    opacity: 0.3;
+}
+
+.search_text {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 25px;
+    top: 0;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.search_icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 25px;
+    top: 5px;
+    border: 0;
+}
+
+.login {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 1450px;
+    top: 25px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 39px;
+    text-decoration-line: none;
+}
