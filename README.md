@@ -4,7 +4,7 @@ Web Technology хичээлийн бие даалт.
 
 ## TODO List
 1. home
-    - [ ] html
+    - [x] html
     - [ ] css
     - [ ] js
 2. login
