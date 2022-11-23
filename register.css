@@ -1,0 +1,129 @@
+body {
+    background: rgba(0, 0, 0, 0.8);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: #9B383B;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 30%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: xx-large;
+    position: absolute;
+    top: 50px;
+    left: 175px;
+    font-weight: bold;
+}
+
+.username {
+    position: absolute;
+    top: 140px;
+    left: 20%;
+    width: calc(60% - 20px);
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #E9E3B5;
+    padding-left: 20px;
+    font-weight: 650;
+}
+
+.password {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    width: calc(60% - 20px);
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #E9E3B5;
+    padding-left: 20px;
+    font-weight: 650;
+}
+
+.rep_password {
+    position: absolute;
+    top: 260px;
+    left: 20%;
+    width: calc(60% - 20px);
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #E9E3B5;
+    padding-left: 20px;
+    font-weight: 650;
+}
+
+.submit {
+    position: absolute;
+    top: 350px;
+    left: 30%;
+    width: 40%;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #F67F20;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.fb {
+    height: 37px;
+    position: absolute;
+    top: 468px;
+    left: calc(50% - 85px);
+}
+
+.google {
+    height: 75px;
+    position: absolute;
+    top: 450px;
+    left: calc(50% - 35px);
+}
+
+.twitter {
+    height: 50px;
+    position: absolute;
+    top: 462px;
+    left: calc(50% + 45px);
+}
+
+.hr1 {
+    position: absolute;
+    top: 420px;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.hr2 {
+    position: absolute;
+    right: 0;
+    top: 420px;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.or {
+    position: absolute;
+    top: 403px;
+    left: calc(50% - 10px);
+}
+
+.register {
+    position: absolute;
+    top: 520px;
+    left: calc(50% - 85px);
+    color: black;
+}
+
+.register a {
+    color: black;
+}
