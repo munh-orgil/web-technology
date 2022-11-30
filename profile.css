@@ -1,0 +1,42 @@
+body {
+    background: rgb(40, 40, 40);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.profile .img {
+    position: absolute;
+    height: 150px;
+    border-radius: 200px;
+    top: 150px;
+    left: 200px;
+}
+
+.profile .username {
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    font-size: 40px;
+    color: white
+}
+
+.basic_info table {
+    position: absolute;
+    top: 220px;
+    left: 400px;
+    color: white;
+    width: 900px;
+}
+
+.basic_info table, tr {
+    border: 1px solid white;
+    border-radius: 100px;
+    border-collapse: collapse;
+}
+
+.r {
+    text-align: right;
+}
+
+.basic_info table tr td {
+    padding: 20px;
+}

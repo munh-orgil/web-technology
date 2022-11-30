@@ -3,6 +3,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
+.container {
+    height: 100%;
+    position: relative;
+    padding: 0;
+}
 /* #head {
     position: fixed;
     width: 100%;
@@ -17,23 +22,33 @@ body {
     position: absolute;
     left: 20%;
     text-align: center;
-    top: 100px;
+    top: 70px;
     color: rgba(255, 255, 255, 0.7);
     width: 60%;
 }
 
 .homebutton {
+    position: absolute;
+    left: calc(50% - 100px);
     width: 200px;
     height: 50px;
     background-color: black;
     color: rgba(255, 255, 255, 0.7);
-    border-radius: 20px;
+    border-radius: 100px;
     border-style: solid;
     border-color: #9B383B;
     font-size: medium;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 46px;
+    text-decoration: none;
 }
 .homebutton:hover {
-    background-color: #bd5c5f;
+    background-color: #9B383B;
     color: black;
+}
+
+.pre {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
