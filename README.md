@@ -3,7 +3,7 @@
 Web Technology хичээлийн бие даалт.
 
 ## TODO List
-1. watch
-2. profile
-3. search
-4. admin
+1. [ ] watch
+2. [x] profile
+3. [x] search
+4. [ ] admin
