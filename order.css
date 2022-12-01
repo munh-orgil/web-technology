@@ -1,0 +1,85 @@
+body {
+    background: rgb(40, 40, 40);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    height: 110vh;
+}
+
+.item {
+    position: relative;
+    top: 120px;
+    left: calc(40% - 300px);
+    width: 600px;
+    height: 270px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.item img {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+
+.payment {
+    position: relative;
+    top: 170px;
+    left: calc(40% - 300px);
+    width: 600px;
+    height: 220px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.payment img {
+    height: 70px;
+    border-radius: 7px;
+}
+
+.payment table {
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 240px);
+    width: 500px;
+}
+
+.confirmation {
+    position: fixed;
+    top: 120px;
+    left: 960px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+    
+.confirmation table {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+}
+
+.confirmation .confirm {
+    position: absolute;
+    top: 130px;
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border-color: rgb(156, 56, 59);
+    border-style: solid;
+}
+
+.confirm:hover {
+    background-color: rgb(156, 56, 59);
+}
+
+.r {
+    text-align: right;
+}

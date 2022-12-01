@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Order</title>
+        <link rel="icon" type="image/x-icon" href="/image/favicon.jpg">
+        <link href="basics.css" rel="stylesheet">
+        <link href="order.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="head">
+                <a href="index.html"><img class="logo" src="/image/logo.png" alt="NMIT Movies"></a>
+                <a class="home" href="home.html">Home</a>
+                <a class="dvd_list" href="dvd_list.html">DVD</a>
+                <a class="blu_ray_list" href="blu_ray_list.html">Blu-Ray</a>
+                <a class="cd_list" href="cd_list.html">CD</a>
+                <a class="about" href="index.html">About Us</a>
+                <form class="search_bar" action="search.html">
+                    <input type="search" class="search_text" value="Enter keywords...">
+                    <div class="search_icon">
+                        <input type="image" src="/image/search_img.png" alt="Submit" height="30px">
+                    </div>
+                </form>
+                <div class="login">
+                    <a href="profile.html"><img id="pic" src="/image/account_img.png"></a>
+                    <a id="word" href="login.html">Login</a>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h2 style="padding: 0 157px; color: white;">Review item and shipping</h2>
+                <img src="/image/friends.jpg">
+                <p style="padding-left: 200px; color: white">Friends(1994-2004) Blu-Ray</p>
+                <p style="padding-left: 200px; color: rgb(156, 56, 59);">US $20</p>
+                
+                <form style="padding-left: 200px; color: white;">
+                    Quantity&emsp;
+                    <input type="number" style="border-radius: 10px; background-color: rgb(90, 90, 90); height: 25px; width: 100px; border-style: solid;">
+                    <br>
+                    <br>Delivery&emsp;
+                    <input type="radio" name="delivery" id="deliver">
+                    <label for="deliver">Deliver to address</label>
+                    <br>
+                    <div style="padding-left: 76px;">
+                        <input type="radio" name="delivery" id="fromShop">
+                        <label for="fromShop">Recieve from shop</label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="payment">
+                <h2 style="padding: 10px 200px; color: white;">Payment Method</h2>
+                <table>
+                    <tr>
+                        <td><img src="/image/khaan.png"></td>
+                        <td><img src="/image/golomt.png"></td>
+                        <td><img src="/image/tdb.png"></td>
+                        <td><img src="/image/has.png"></td>
+                        <td><img src="/image/qpay.png"></td>
+                        <td><img src="/image/socialpay.png"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="confirmation">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td class="r">US $20</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td class="r">US $5</td>
+                    </tr>
+                    <tr>
+                        <td><hr style="width: 165%;"></td>
+                    </tr>
+                    <tr>
+                        <td>Order total</td>
+                        <td class="r">US %25</td>
+                    </tr>
+                </table>
+                <form action=".html">
+                    <input type="submit" value="Confirm and Pay" class="confirm">
+                </form>
+            </div>
+
+            <div class="foot">
+                <pre>FAQ                Contact Us             Help Center               Terms of Use             Privacy
+                    
+                    Copyright © 2022 NMIT Movies                
+                </pre>
+            </div>
+        </div>
+    </body>
+</html>

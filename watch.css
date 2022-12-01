@@ -1,0 +1,130 @@
+body {
+    background: rgb(40, 40, 40);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 1900px;
+}
+
+.content {
+    position: absolute;
+    bottom: 100px;
+    top: 100px;
+}
+
+.container {
+    height: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.pre {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.trailer {
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.video_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    z-index: 0;
+}
+
+img {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 770px;
+    left: 150px;
+    border-radius: 7px;
+}
+
+.order {
+    position: absolute;
+    top: 1150px;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: #9B383B;
+    background-color: black;
+    z-index: 1000;
+}
+.order:hover {
+    background-color: #9B383B;
+}
+
+.title {
+    position: absolute;
+    top: 710px;
+    left: 420px;
+    color: rgb(156, 56, 59);
+    text-shadow: 2px 2px 1px black;
+    font-size: 48px;
+}
+
+.type {
+    position: absolute;
+    top: 810px;
+    left: 420px;
+    background-color: rgb(156, 56, 59);
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.info {
+    position: absolute;
+    top: 808px;
+    left: 500px;
+    color: white;
+}
+
+.desc {
+    position: absolute;
+    top: 850px;
+    left: 420px;
+    color: white;
+    width: 600px;
+}
+
+.details {
+    position: absolute;
+    top: 980px;
+    left: 420px;
+    color: white;
+    width: 70%;
+}
+
+.comment_wrapper {
+    position: relative;
+    top: 1250px;
+    left: 150px;
+    width: calc(100% - 300px);
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
+
+.comment_input {
+    background-color: black;
+    border-radius: 20px;
+    width: 1160px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 20px;
+}
