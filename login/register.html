@@ -3,18 +3,17 @@
 <head>
     <title>Login</title>
     <link rel="icon" type="image/x-icon" href="/image/favicon.jpg">
-    <link href="login.css" rel="stylesheet" >
+    <link href="register.css" rel="stylesheet" >
 </head>
 
 <body>
     <div class="wrapper">
-        <p class="title">Login</p>
-        <form action="/home.html">
+        <p class="title">Register</p>
+        <form action="/login/login.html">
             <input class="username" type="text" value="Username">
             <input class="password" type="text" value="Password">
-            <input id="remember" type="checkbox">
-            <label for="remember"> Remember me</label>
-            <input class="submit" type="submit" value="Login">
+            <input class="rep_password" type="text" value="Repeat password">
+            <input class="submit" type="submit" value="Register">
         </form>
         <hr class="hr1">
         <p class="or">Or</p>
@@ -23,7 +22,6 @@
         <img class="google" src="/image/google.png">
         <img class="twitter" src="/image/twitter.png">
 
-        <a class="forgot" href="/forgot.html">Forgot password</a>
-        <p class="register">Don't have account? <a href="/register.html"> Register</a> </p>
+        <p class="register">Have an account? <a href="/login/login.html"> Log In</a> </p>
     </div>
 </body>
