@@ -1,29 +1,41 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="icon" type="image/x-icon" href="/image/favicon.jpg">
+        <link href="login.css" rel="stylesheet" >
+    </head>
 
-<head>
-    <title>Login</title>
-    <link rel="icon" type="image/x-icon" href="/image/favicon.jpg">
-    <link href="login.css" rel="stylesheet" >
-</head>
+    <body>
+        <script src="login.js">
+            function Validate() {
+                // alert(document.getElementById("username").value)
+                if (document.getElementById("username").value == "") {
+                    document.getElementById("error_username").innerHTML = "Username is required"
+                }
+            }
+        </script>
+        <div class="wrapper">
+            <!-- action="/base/home.html"  -->
+            <p class="title">Login</p>
+            <form name="Login">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <input id="remember" type="checkbox">
+                <label for="remember"> Remember me</label>
+                <input class="submit" type="submit" value="Login" onclick="Validate()">
+            </form>
+            <span id="error_username"></span>
+            
+            <hr class="hr1">
+            <p class="or">Or</p>
+            <hr class="hr2">
+            <img class="fb" src="/image/fb.png">
+            <img class="google" src="/image/google.png">
+            <img class="twitter" src="/image/twitter.png">
 
-<body>
-    <div class="wrapper">
-        <p class="title">Login</p>
-        <form action="/base/home.html">
-            <input class="username" type="text" value="Username">
-            <input class="password" type="text" value="Password">
-            <input id="remember" type="checkbox">
-            <label for="remember"> Remember me</label>
-            <input class="submit" type="submit" value="Login">
-        </form>
-        <hr class="hr1">
-        <p class="or">Or</p>
-        <hr class="hr2">
-        <img class="fb" src="/image/fb.png">
-        <img class="google" src="/image/google.png">
-        <img class="twitter" src="/image/twitter.png">
-
-        <a class="forgot" href="/login/forgot.html">Forgot password</a>
-        <p class="register">Don't have account? <a href="/login/register.html"> Register</a> </p>
-    </div>
-</body>
+            <a class="forgot" href="/login/forgot.html">Forgot password</a>
+            <p class="register">Don't have account? <a href="/login/register.html"> Register</a> </p>
+        </div>
+    </body>
+</html>

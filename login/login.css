@@ -23,9 +23,9 @@ body {
     font-weight: bold;
 }
 
-.username {
+#username {
     position: absolute;
-    top: 190px;
+    top: 150px;
     left: 20%;
     width: calc(60% - 20px);
     height: 50px;
@@ -36,9 +36,16 @@ body {
     font-weight: 650;
 }
 
-.password {
+#error_username {
     position: absolute;
-    top: 250px;
+    top: 200px;
+    left: 20%;
+    color: red;
+}
+
+#password {
+    position: absolute;
+    top: 230px;
     left: 20%;
     width: calc(60% - 20px);
     height: 50px;
