@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <script>
+            function Validate() {
+                var input = document.getElementById('user_id').value;
+                var pattern = /\w{5,12}/;
+                if(input.match(pattern) == null) {
+                    document.getElementById('error_user_id').innerHTML = "Заавал бөглөх талбар ба урт нь 5-12 хооронд байх ёстой."
+                } else {
+                    document.getElementById('error_user_id').innerHTML = ""
+                }
+
+                var input = document.getElementById('password').value;
+                var pattern = /\w{7,12}/;
+                if(input.match(pattern) == null) {
+                    document.getElementById('error_password').innerHTML = "Заавал бөглөх талбар ба урт нь 7-12 хооронд байх ёстой."
+                } else {
+                    document.getElementById('error_password').innerHTML = ""
+                }
+
+                var input = document.getElementById('country').value;
+                if(input == "empty") {
+                    document.getElementById('error_country').innerHTML = "Заавал, ямар нэг орны нэр сонгогдсон байх ёстой."
+                } else {
+                    document.getElementById('error_country').innerHTML = ""
+                }
+
+                var input = document.getElementById('zip').value;
+                var pattern = /\d{3}/;
+                if(input.match(pattern) == null) {
+                    document.getElementById('error_zip').innerHTML = "Заавал, 3 оронтой тоо байх ёстой"
+                } else {
+                    document.getElementById('error_zip').innerHTML = ""
+                }
+                var input = document.getElementById('email').value;
+                var pattern1 = /[^@\.\w]/;
+                var pattern2 = /[^@\.\w]/;
+                if(input.match(pattern) != null) {
+                    document.getElementById('error_email').innerHTML = "Заавал, email хаягийн форматын дагуу байх ёстой"
+                } else {
+                    document.getElementById('error_email').innerHTML = ""
+                }
+            }
+        </script>
+        <table>
+            <tr>
+                <td> User id: </td>
+                <td> <input type="text" id = "user_id"> <span style="color: red;" id = "error_user_id"></span> </td>
+            </tr>
+            <tr>
+                <td> Password: </td>
+                <td> <input type="password" id = "password"> <span style="color: red;" id = "error_password"></span> </td>
+            </tr>
+            <tr>
+                <td> Name: </td>
+                <td> <input type="text" id = "name"> <span style="color: red;" id = "error_name"></span> </td>
+            </tr>
+            <tr>
+                <td> Address: </td>
+                <td> <input type="text" id = "address"></td>
+            </tr>
+            <tr>
+                <td> Country: </td>
+                <td> 
+                    <select id = "country"> 
+                        <option value = "empty">(Please select a country)</option> 
+                        <option value = "Mongolia"> Mongolia </option>
+                        <option value = "Russia"> Russia </option>
+                        <option value = "China"> China </option>
+                        <option value = "USA"> USA </option>
+                    </select> <span style="color: red;" id = "error_country"></span> 
+
+                </td>
+            </tr>
+            <tr>
+                <td> ZIP Code: </td>
+                <td> <input type="number" id = "zip"> <span style="color: red;" id = "error_zip"></span> </td>
+            </tr>
+            <tr>
+                <td> Email: </td>
+                <td> <input type="email" id = "email"> <span style="color: red;" id = "error_email"></span> </td>
+            </tr>
+            <tr>
+                <td> ZIP Code: </td>
+                <td> <input type="number" id = "zip"> <span style="color: red;" id = "error_zip"></span> </td>
+            </tr>
+        </table>
+        <button type="button" onclick = "Validate()"> Submit </button>
+    </body>
+</html>

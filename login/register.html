@@ -4,15 +4,20 @@
     <title>Login</title>
     <link rel="icon" type="image/x-icon" href="/image/favicon.jpg">
     <link href="register.css" rel="stylesheet" >
+    <script src="register.js">
+    </script>
 </head>
 
 <body>
     <div class="wrapper">
         <p class="title">Register</p>
-        <form action="/login/login.html">
-            <input class="username" type="text" value="Username">
-            <input class="password" type="text" value="Password">
-            <input class="rep_password" type="text" value="Repeat password">
+        <form name="Register" action="/login/login.html" onsubmit="return Validate()">
+            <input id="username" type="text" placeholder="Username">
+            <span id="error_username"></span>
+            <input id="password" type="password" placeholder="Password">
+            <span id="error_password"></span>
+            <input id="rep_password" type="password" placeholder="Repeat password">
+            <span id="error_rep_password"></span>
             <input class="submit" type="submit" value="Register">
         </form>
         <hr class="hr1">

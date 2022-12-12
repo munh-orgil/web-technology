@@ -4,28 +4,23 @@
         <title>Login</title>
         <link rel="icon" type="image/x-icon" href="/image/favicon.jpg">
         <link href="login.css" rel="stylesheet" >
+        <script src="login.js">
+        </script>
     </head>
 
     <body>
-        <script src="login.js">
-            function Validate() {
-                // alert(document.getElementById("username").value)
-                if (document.getElementById("username").value == "") {
-                    document.getElementById("error_username").innerHTML = "Username is required"
-                }
-            }
-        </script>
         <div class="wrapper">
             <!-- action="/base/home.html"  -->
             <p class="title">Login</p>
-            <form name="Login">
+            <form name="Login" action="/base/home.html" onsubmit="return Validate()">
                 <input type="text" id="username" placeholder="Username">
+                <span id="error_username"></span>
                 <input type="password" id="password" placeholder="Password">
+                <span id="error_password"></span>
                 <input id="remember" type="checkbox">
                 <label for="remember"> Remember me</label>
-                <input class="submit" type="submit" value="Login" onclick="Validate()">
+                <input class="submit" type="submit" value="Login">
             </form>
-            <span id="error_username"></span>
             
             <hr class="hr1">
             <p class="or">Or</p>
