@@ -42,7 +42,7 @@ body {
     left: 24%;
     color: red;
     text-shadow: 1px 1px 4px rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #password {
@@ -64,7 +64,7 @@ body {
     left: 24%;
     color: red;
     text-shadow: 1px 1px 4px rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #rep_password {
@@ -86,7 +86,7 @@ body {
     left: 24%;
     color: red;
     text-shadow: 1px 1px 4px rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 img {

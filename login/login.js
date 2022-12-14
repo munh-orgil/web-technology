@@ -24,3 +24,7 @@ function Validate() {
     }
     return ret
 }
+
+function Login() {
+    
+}

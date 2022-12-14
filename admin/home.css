@@ -1,0 +1,18 @@
+.navigation {
+    position: fixed;
+    top: 70px;
+    height: 1000px;
+    background-color: rgb(200, 200, 200);
+}
+.tabs {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.tabs:hover {
+    background-color: rgb(230, 230, 230);
+}
