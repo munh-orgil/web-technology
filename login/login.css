@@ -82,8 +82,8 @@ body {
 .submit {
     position: absolute;
     top: 350px;
-    left: 30%;
-    width: 40%;
+    left: 20%;
+    width: 28%;
     height: 50px;
     border-radius: 100px;
     border: 0;
@@ -150,4 +150,17 @@ body {
 
 .register a {
     color: black;
+}
+
+.cancel {
+    position: absolute;
+    top: 350px;
+    right: 20%;
+    width: 28%;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #f3ac71;
+    font-size: larger;
+    font-weight: bold;
 }
