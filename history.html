@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Order history</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+        <link href="/styles/profile.css" rel="stylesheet" >
+        <link href="/styles/basics.css" rel="stylesheet" >
+        <link href="/styles/history.css" rel="stylesheet" >
+        <link href="/styles/edit.css" rel="stylesheet" >
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="head">
+                <a href="/index.html"><img class="logo" src="/images/logo.png" alt="NMIT Movies"></a>
+                <a class="home" href="/home.html">Home</a>
+                <a class="dvd_list" href="/dvd_list.html">DVD</a>
+                <a class="blu_ray_list" href="/blu_ray_list.html">Blu-Ray</a>
+                <a class="cd_list" href="/cd_list.html">CD</a>
+                <a class="about" href="/index.html">About Us</a>
+                <form class="search_bar" action="/search.html">
+                    <input type="search" class="search_text" placeholder="Enter keywords...">
+                    <div class="search_icon">
+                        <input type="image" src="/images/search_img.png" alt="Submit" height="30px">
+                    </div>
+                </form>
+                <div class="login">
+                    <a href="/profile.html"><img id="pic" src="/images/account_img.png"></a>
+                    <a id="word" href="/login.html">Login</a>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="/images/account_img.png" class="img">
+                <p class="username">Username</p>
+                <div class="full_history">
+                    <table>
+                        <tr class="top">
+                            <td>Name</td>
+                            <td>Type</td>
+                            <td>Validation</td>
+                            <td>Expires on</td>
+                        </tr>
+                        <tr>
+                            <td>Friends</td>
+                            <td>DVD</td>
+                            <td>Validated</td>
+                            <td>2022/12/31</td>
+                        </tr>
+                        <tr>
+                            <td>Friends</td>
+                            <td>Blu-Ray</td>
+                            <td>Pending to recieve</td>
+                            <td>2022/12/31</td>
+                        </tr>
+                        <tr>
+                            <td>Friends</td>
+                            <td>CD</td>
+                            <td>Pending to pay</td>
+                            <td>2022/12/31</td>
+                        </tr>
+                        <tr>
+                            <td>Friends</td>
+                            <td>DVD</td>
+                            <td>Validated</td>
+                            <td>2022/12/31</td>
+                        </tr>
+                        <tr>
+                            <td>Friends</td>
+                            <td>Blu-Ray</td>
+                            <td>Pending to pay</td>
+                            <td>2022/12/31</td>
+                        </tr>
+                    </table>
+                    <a class="done" href="/profile.html">Done</a>
+
+                    <div class="nav">
+                        <form>
+                            <input type="button" value="1">
+                            <input type="button" value="2">
+                            <input type="button" value="3">
+                            <input type="button" value="4">
+                            <input type="button" value="5">
+                            <input type="button" value="->">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="foot">
+                <pre>FAQ                Contact Us             Help Center               Terms of Use             Privacy
+                    
+                    Copyright © 2022 NMIT Movies                
+                </pre>
+            </div>
+        </div>
+    </body>
+</html>

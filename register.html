@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link href="/styles/register.css" rel="stylesheet" >
+    <script src="/scripts/register.js">
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <p class="title">Register</p>
+        <form name="Register" action="/login.html" onsubmit="return Validate()">
+            <input id="username" type="text" placeholder="Username">
+            <span id="error_username"></span>
+            <input id="password" type="password" placeholder="Password">
+            <span id="error_password"></span>
+            <input id="rep_password" type="password" placeholder="Repeat password">
+            <span id="error_rep_password"></span>
+            <input class="submit" type="submit" value="Register">
+        </form>
+        <hr class="hr1">
+        <p class="or">Or</p>
+        <hr class="hr2">
+        <img class="fb" src="/images/fb.png">
+        <img class="google" src="/images/google.png">
+        <img class="twitter" src="/images/twitter.png">
+
+        <p class="register">Have an account? <a href="/login.html"> Log In</a> </p>
+    </div>
+</body>
