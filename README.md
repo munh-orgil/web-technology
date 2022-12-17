@@ -1,3 +1,3 @@
 # web-technology
 
-Web Technology хичээлийн бие даалт.
+Web Technology хичээлийн бие даалт. 
