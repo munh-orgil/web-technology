@@ -19,11 +19,9 @@
                 <a class="blu_ray_list" href="/blu_ray_list.html">Blu-Ray</a>
                 <a class="cd_list" href="/cd_list.html">CD</a>
                 <a class="about" href="/index.html">About Us</a>
-                <form class="search_bar" action="/search.html">
-                    <input type="search" class="search_text" placeholder="Enter keywords..." >
-                    <div class="search_icon">
-                        <input type="image" src="/images/search_img.png" alt="Submit" height="30px">
-                    </div>
+                <form class="search_bar" onsubmit="Search()" action="/search.html">
+                    <input type="search" class="search_text" placeholder="Enter keywords...">
+                    <input type="image" class="search_icon" src="/images/search_img.png" alt="Submit" height="30px">
                 </form>
                 <div class="login">
                     <a class="Pic" href="/login.html"><img id="pic" src="/images/account_img.png"></a>

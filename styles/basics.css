@@ -225,9 +225,9 @@ body{
 
 .search_icon {
     position: absolute;
-    width: 20px;
-    height: 20px;
-    right: 25px;
+    width: 30px;
+    height: 30px;
+    right: 15px;
     top: 5px;
     border: 0;
 }

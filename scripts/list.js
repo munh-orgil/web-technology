@@ -17,7 +17,7 @@ function load(url, path, direction) {
             console.log(content)
             if (path == 2) {
                 content = content.filter(function (entry) {
-                    return entry.title == localStorage.Search
+                    return entry.title.toLowerCase() == localStorage.Search.toLowerCase()
                 })
             }
             let len = Object.keys(content).length;
