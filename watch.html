@@ -4,8 +4,8 @@
     <head>
         <title>Watch</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
-        <link href="/styles/basics.css" rel="stylesheet">
         <link href="/styles/watch.css" rel="stylesheet" >
+        <link href="/styles/basics.css" rel="stylesheet">
     </head>
 
     <body>
@@ -18,14 +18,14 @@
                 <a class="cd_list" href="/cd_list.html">CD</a>
                 <a class="about" href="/index.html">About Us</a>
                 <form class="search_bar" action="/search.html">
-                    <input type="search" class="search_text" placeholder="Enter keywords...">
+                    <input type="search" class="search_text" placeholder="Enter keywords..." >
                     <div class="search_icon">
                         <input type="image" src="/images/search_img.png" alt="Submit" height="30px">
                     </div>
                 </form>
                 <div class="login">
-                    <a href="/profile.html"><img id="pic" src="/images/account_img.png"></a>
-                    <a id="word" href="/login.html">Login</a>
+                    <a class="Pic" href="/login.html"><img id="pic" src="/images/account_img.png"></a>
+                    <a class="User" href="/login.html"></a>
                 </div>
             </div>
 
@@ -36,7 +36,7 @@
                 Your browser does not support the video tag.
             </video> 
 
-            <img src="/images/friends.jpg">
+            <img class="thumbnail" src="/images/friends.jpg">
             
             <p class="title">Friends</p>
             <p class="type">Blu-Ray</p>
@@ -112,4 +112,5 @@
             </div>
         </div>
     </body>
+    <script src="/scripts/user.js"></script>
 </html>

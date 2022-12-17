@@ -53,7 +53,21 @@ body{
     text-decoration-line: none;
 }
 .home:hover {
-    color: rgb(100, 100, 100);
+    opacity: 0.4;
+}
+.home_active {
+    position: absolute;
+    width: 80px;
+    height: 90px;
+    left: 140px;
+    top: 10px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(156, 56, 59);
+    line-height: 84px;
+    text-decoration-line: none;
 }
 
 .dvd_list {
@@ -71,7 +85,21 @@ body{
     text-decoration-line: none;
 }
 .dvd_list:hover {
-    color: rgb(100, 100, 100);
+    opacity: 0.4;
+}
+.dvd_list_active {
+    position: absolute;
+    width: 80px;
+    height: 90px;
+    left: 220px;
+    top: 10px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(156, 56, 59);
+    line-height: 84px;
+    text-decoration-line: none;
 }
 
 .blu_ray_list {
@@ -89,7 +117,21 @@ body{
     text-decoration-line: none;
 }
 .blu_ray_list:hover {
-    color: rgb(100, 100, 100);
+    opacity: 0.4;
+}
+.blu_ray_list_active {
+    position: absolute;
+    width: 80px;
+    height: 90px;
+    left: 300px;
+    top: 10px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    color: rgb(156, 56, 59);
+    font-size: 18px;
+    line-height: 84px;
+    text-decoration-line: none;
 }
 
 .cd_list {
@@ -107,12 +149,26 @@ body{
     text-decoration-line: none;
 }
 .cd_list:hover {
-    color: rgb(100, 100, 100);
+    opacity: 0.4;
+}
+.cd_list_active {
+    position: absolute;
+    width: 80px;
+    height: 90px;
+    left: 380px;
+    top: 10px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(156, 56, 59);
+    line-height: 84px;
+    text-decoration-line: none;
 }
 
 .about {
     position: absolute;
-    width: 80px;
+    width: 100px;
     height: 90px;
     left: 460px;
     top: 10px;
@@ -125,7 +181,21 @@ body{
     text-decoration-line: none;
 }
 .about:hover {
-    color: rgb(100, 100, 100);
+    opacity: 0.4;
+}
+.about_active {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 460px;
+    top: 10px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(156, 56, 59);
+    line-height: 84px;
+    text-decoration-line: none;
 }
 
 .search_bar {
@@ -136,7 +206,7 @@ body{
     top: 32px;
     background-color: white;
     border-radius: 20px;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 .search_text {
@@ -166,25 +236,23 @@ body{
     position: absolute;
     width: 90px;
     height: 40px;
-    top: 32px;
-    right: 20px;
+    top: 40px;
+    right: 50px;
 }
-#pic {
-    position: absolute;
-    top: 5px;
+.login #pic {
     height: 30px;
     border-radius: 100px;
 }
-#word {
+.User {
     position: absolute;
     left: 40px;
     top: 2px;
-    text-align: center;
+    text-align: right;
     font-style: normal;
     font-size: 18px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.7);
-    line-height: 39px;
+    line-height: 30px;
     text-decoration-line: none;
 }
 
@@ -201,4 +269,8 @@ body{
     color: rgba(255, 255, 255, 0.7);
     font-size: small;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.active {
+    color: rgb(156, 56, 59);
 }

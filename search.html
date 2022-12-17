@@ -17,19 +17,17 @@
                 <a class="blu_ray_list" href="/blu_ray_list.html">Blu-Ray</a>
                 <a class="cd_list" href="/cd_list.html">CD</a>
                 <a class="about" href="/index.html">About Us</a>
-                <form class="search_bar" action="/search.html">
+                <form class="search_bar" onsubmit="Search()" action="/search.html">
                     <input type="search" class="search_text" placeholder="Enter keywords...">
-                    <div class="search_icon">
-                        <input type="image" src="/images/search_img.png" alt="Submit" height="30px">
-                    </div>
+                    <input type="image" class="search_icon" src="/images/search_img.png" alt="Submit" height="30px">
                 </form>
                 <div class="login">
-                    <a href="/profile.html"><img id="pic" src="/images/account_img.png"></a>
-                    <a id="word" href="/login.html">Login</a>
+                    <a class="Pic" href="/login.html"><img id="pic" src="/images/account_img.png"></a>
+                    <a class="User" href="/login.html"></a>
                 </div>
             </div>
             
-            <p class="results">Search results for [search_text]</p>
+            <p class="results" id="Search"></p>
 
             <div class="friends">
                 <a class="link" href="watch.html"></a>
@@ -51,6 +49,7 @@
             <div class="content_wrapper"></div>
 
             <table>
+                <tr><td></td><td></td><td></td><td></td><td></td></tr>
                 <tr>
                     <td>
                         <p>DVD</p>
@@ -59,57 +58,7 @@
                         <a href="dvd_list.html">show more</a>
                     </td>
                 </tr>
-                <tr class="cl">
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">DVD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">DVD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">DVD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">DVD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">DVD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
+                <tr class="cl" id="search_dvd">
                 </tr>
                 <tr>
                     <td>
@@ -119,57 +68,7 @@
                         <a href="blu_ray_list.html">show more</a>
                     </td>
                 </tr>
-                <tr class="cl">
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">Blu-Ray</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">Blu-Ray</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">Blu-Ray</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">Blu-Ray</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">Blu-Ray</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
+                <tr class="cl" id="search_blu-ray">
                 </tr>
                 <tr>
                     <td>
@@ -179,57 +78,7 @@
                         <a href="cd_list.html">show more</a>
                     </td>
                 </tr>
-                <tr class="cl">
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">CD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">CD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">CD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">CD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <a href="watch.html"><img class="content_img" src="/images/friends.jpg"></a>
-                            <p class="content_type">CD</p>
-                            <p class="content_title">Friends</p>
-                            <pre class="content_info">1990   ⋅   30min   ⋅   Sitcom
- IMDB: 8.9                   20$
-                            </pre>
-                        </div>
-                    </td>
+                <tr class="cl" id="search_cd">
                 </tr>
             </table>
 
@@ -241,4 +90,8 @@
             </div>
         </div>
     </body>
+    <script src="/scripts/user.js"></script>
+    <script src="/scripts/list.js"></script>
+    <script src="/scripts/search.js"></script>
+
 </html>

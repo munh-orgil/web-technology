@@ -100,10 +100,50 @@ td {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 24px;
 }
-.content_info {
+.content_year {
     position: absolute;
     top: 230px;
     left: 20px;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.content_duration {
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.content_genre {
+    position: absolute;
+    top: 230px;
+    left: 145px;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.content_IMDB {
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.content_cost {
+    position: absolute;
+    top: 250px;
+    left: 160px;
     color: white;
     text-shadow: 1px 2px 2px black;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
@@ -130,12 +170,29 @@ table tr td a {
     padding-right: 50px;
 }
 
-.list_wrapper {
+#Blu-Ray_wrapper {
     position: absolute;
     top: 150px;
     left: 100px;
     right: 100px;
-    height: 1900px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+}
+
+#DVD_wrapper {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    right: 100px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+}
+
+#CD_wrapper {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    right: 100px;
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 30px;
 }

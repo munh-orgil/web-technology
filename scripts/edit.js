@@ -1,11 +1,25 @@
-document.getElementById('fname').value = localStorage.Fname
-document.getElementById('lname').value = localStorage.Lname
-document.getElementById('bday').value = localStorage.Bday
-document.getElementById('gender').value = localStorage.Gender
+if(localStorage.Fname) {
+    document.getElementById('fname').value = localStorage.Fname
+}
+if(localStorage.Lname) {
+    document.getElementById('lname').value = localStorage.Lname
+}
+if(localStorage.Bday) {
+    document.getElementById('bday').value = localStorage.Bday
+}
+if(localStorage.Gender) {
+    document.getElementById('gender').value = localStorage.Gender
+}
+if(localStorage.Email) {
+    document.getElementById('email').value = localStorage.Email
+}
+if (localStorage.Phone) {
+    document.getElementById('phone').value = localStorage.Phone
+}
+if (localStorage.Address) {
+    document.getElementById('address').value = localStorage.Address
+}
 
-document.getElementById('email').value = localStorage.Email
-document.getElementById('phone').value = localStorage.Phone
-document.getElementById('address').value = localStorage.Address
 
 function Basic() {
     localStorage.Fname = document.getElementById("fname").value

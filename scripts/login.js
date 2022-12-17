@@ -1,6 +1,7 @@
 const remember = document.getElementById("remember"),
     uname = document.getElementById("username");
 
+
 if (localStorage.checkbox && localStorage.checkbox !== "") {
     remember.setAttribute("checked", "checked");
     uname.value = localStorage.Username;
@@ -62,6 +63,7 @@ function Validate() {
                 document.getElementById("error_password").innerHTML = ""
             }
 
+            localStorage.username = username
             localStorage.Password = password
             if (remember.checked && uname.value !== "") {
                 localStorage.Username = uname.value;
@@ -72,6 +74,5 @@ function Validate() {
             }
             window.location.replace("/home.html");
         }
-        
     }
 }

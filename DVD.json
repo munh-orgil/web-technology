@@ -1,0 +1,56 @@
+[
+    {
+        "image": "/images/friends.jpg",
+        "title": "Friends",
+        "year": "1990",
+        "duration": "30 min",
+        "genre": "SitCom",
+        "imdb": "8.9",
+        "cost": "20$"
+    },
+    {
+        "image": "/images/doctor_who.jpg",
+        "title": "Doctor Who",
+        "year": "2005",
+        "duration": "80 min",
+        "genre": "Sci-Fi",
+        "imdb": "8.6",
+        "cost": "20$"
+    },
+    {
+        "image": "/images/star_wars.jpg",
+        "title": "Star Wars",
+        "year": "1999",
+        "duration": "136 min",
+        "genre": "Sci-Fi",
+        "imdb": "6.5",
+        "cost": "10$"
+    },
+    {
+        "image": "/images/interstellar.jpg",
+        "title": "Interstellar",
+        "year": "2014",
+        "duration": "169 min",
+        "genre": "Sci-Fi",
+        "imdb": "8.9",
+        "cost": "5$"
+    },
+    {
+        "image": "/images/avatar.jpg",
+        "title": "Avatar 2",
+        "year": "2022",
+        "duration": "192 min",
+        "genre": "Sci-Fi",
+        "imdb": "8.2",
+        "cost": "5$"
+    },
+    {
+        "image": "/images/avengers.jpg",
+        "title": "Avengers",
+        "year": "2019",
+        "duration": "181 min",
+        "genre": "Adventure",
+        "imdb": "8.4",
+        "cost": "5$"
+    }
+]
